@@ -3,10 +3,10 @@ import { storiesOf } from '@storybook/react';
 import backgrounds from '@storybook/addon-backgrounds';
 import { COLORS } from '../../constants/styles';
 
-import Header from './index';
+import PostTitle from './index';
 
-storiesOf('Header', module)
+storiesOf('Post Title', module)
   .addDecorator(backgrounds([
     { name: "Dark", value: COLORS.DARK, default: true }
   ]))
-  .add('Normal', () => <Header />);
+  .add('Normal', () => <PostTitle>Lorem Ipsum</PostTitle>);

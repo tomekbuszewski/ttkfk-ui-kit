@@ -1,9 +1,10 @@
-import { FONT_SIZES, FONT_FACES, FONT_WEIGHTS } from '../../constants/styles';
+import { FONT_SIZES, FONT_FACES, FONT_WEIGHTS, COLORS } from '../../constants/styles';
 
 export default {
   Wrapper: {
     display: 'flex',
-    flexFlow: 'row wrap'
+    flexFlow: 'row wrap',
+    color: COLORS.WHITE
   },
   PhotoWrapper: {
     width: 60,

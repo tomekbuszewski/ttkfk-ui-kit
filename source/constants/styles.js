@@ -9,6 +9,7 @@ export const COLORS = {
 
 export const FONT_SIZES = {
   EXTRA_SMALL: 12,
+  NORMAL: 20,
   TITLE: {
     XS: 36,
     SM: 48,
