@@ -10,10 +10,8 @@ const Author = ({ classes, author, category, published }) => (
       <img src={author.photo} alt={author.name} title={author.name} className={classes.Photo} />
     </div>
     <div className={classes.TextWrapper}>
-      <div>
-        <address className={classes.AuthorName}><span rel="author">{author.name}</span></address>
-        <div className={classes.Published}><strong>{published}</strong> w kategorii <strong>{category.name}</strong></div>
-      </div>
+      <address className={classes.AuthorName}><span rel="author">{author.name}</span></address>
+      <div className={classes.Published}><strong>{published}</strong>, <strong>{category.name}</strong></div>
     </div>
   </div>
 );

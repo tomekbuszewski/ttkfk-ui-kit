@@ -46,3 +46,9 @@ export const PADDINGS = {
   NORMAL: 20,
   BIG: 40
 };
+
+export const CONTAINER_WIDTHS = {
+  SMALL: '100%',
+  NORMAL: '100%',
+  BIG: 1220
+};
